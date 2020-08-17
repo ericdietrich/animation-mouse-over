@@ -1,0 +1,35 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.quadrado {
+    height: 150px;
+    width: 150px;
+    border: solid 3px #aaf1f9;
+    background-color: black;
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    box-shadow: 2px 2px 0.8 black;
+    transition-duration: 0.7s;
+}
+
+.quadrado:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.vermelho {
+    height: 200;
+    width: 150;
+    background-color: red;
+    transition-duration: 0.7s;
+}
+
+.azul {
+    height: 100px;
+    width: 150px;
+    background-color: blue;
+}
